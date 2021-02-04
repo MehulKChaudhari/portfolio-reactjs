@@ -12,7 +12,7 @@ class Home extends Component {
                 <img src={Logo} alt="Mehul Chaudhari" className="profilepic" />
                 <br />
                 <ReactTypingEffect className="typeff1"
-                text={["Hey,"]}
+                text={["Hey 👋,"]}
                 speed={100} eraseDelay={2500000}
                 displayTextRenderer={(text, i) => {
                 return (

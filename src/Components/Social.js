@@ -24,7 +24,7 @@ class Social extends Component {
                     className="instagram social">
                     <FontAwesomeIcon icon={faInstagram} size="2x" />
                     </a>
-                    <a href="" className="linkedin social">
+                    <a href="https://www.linkedin.com/in/mehul-chaudhari-3367b6174/" className="linkedin social">
                         <FontAwesomeIcon icon={faLinkedin} size="2x" />
                     </a>
               </div> 

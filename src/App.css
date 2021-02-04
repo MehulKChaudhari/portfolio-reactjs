@@ -2,7 +2,7 @@
 :root{
 --sidebar-flex:1.5;
 --condiv-flex:6;
---fontsize-p:1.2rem;
+--fontsize-p:1.5rem;
 --fontsize-nav:1.6rem;
 --typing-font:3rem;
 }
@@ -16,7 +16,10 @@ body
 font-family: 'Raleway';
 }
 a {
+
     color: #FFF;
+    text-decoration: none;
+    font-size: medium;
   }
 .App
 {
@@ -28,17 +31,28 @@ min-height: 100vh;
 .condiv
 {
 padding: 100px ;
-background-color: rgb(44, 40, 57);
+background-color: rgb(41, 40, 40);
 flex:var(--condiv-flex);
+text-align: center;
+}
+.profilepic
+{
+  border-radius: 50%;
+  width: 150px;
+  margin: 40px;
+  text-align: center;
+}
+.typingeffect
+{
+  font-size: var(--typing-font);
+  margin-bottom: 30px;
 }
 
 nav
 {
-padding:60px 30px 0px 30px ;
+padding:60px 3px 0px 30px ;
 flex:var(--sidebar-flex);
 background: rgb(44, 40, 57);
-/* color: rgb(255, 255, 255); */
-/* background: linear-gradient(180deg, rgba(238,103,143,1) 50%, rgba(132,124,252,1) 80%); */
 }
 
 nav ul
@@ -48,6 +62,8 @@ nav ul
   list-style-type: none;
   text-decoration: none;
   color: white !important;
+  padding-top:100px;
+
 }
 nav ul li
 {
@@ -56,4 +72,109 @@ nav ul li
 .active
 {
 font-weight: bolder;
+}
+
+.social
+  {
+    left:0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    bottom: 30px;
+    padding-left: 50px;
+  }
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+}
+
+.social-logo {
+  color: #fff;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-self: center;
+  margin-bottom: 16px;
+}
+a.github {
+  color: #b064f7;
+}
+
+a.linkedin {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: rgb(247, 111, 217);
+}
+.footer
+{
+position: absolute;
+margin-top: 20px;
+display: flex;
+bottom: 60px;
+padding-left: 300px;
+}
+.footer i
+{
+padding-right: 50px;
+font-size: 25px;
+color: #9a9b9c;
+}
+.footer i:hover
+{
+color: #1909f5;
+}
+
+.subtopic
+{
+margin:10px 10px 30px 10px !important;
+}
+p
+{
+font-size: var(--fontsize-p);
+}
+h1,h2,h3,h4,p
+{
+margin: 10px;
+color : rgb(226, 221, 221);
+}
+
+.card
+{
+border:0px solid #9a9b9c;
+display: flex;
+margin:30px 0px 30px 0px;
+}
+.card:hover
+{
+color: #1e1e1f;
+background-color: #918596;
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.condiv .skill
+{
+  list-style-type:circle;
+  margin:30px;
+  text-align: left;
+  color: #93b307;
+}
+.home
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
 }

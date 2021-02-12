@@ -8,6 +8,7 @@ import About from './contents/About';
 import Education from './contents/Education';
 import Skills from './contents/Skills';
 import Contact from './contents/Contact';
+import Blogs from './contents/Blogs';
 
 
 function App () {
@@ -27,6 +28,9 @@ function App () {
         </Route>
         <Route path="/skills">
           <Skills />
+        </Route>
+        <Route path="/blogs">
+          <Blogs />
         </Route>
         <Route path="/contact">
           <Contact />
